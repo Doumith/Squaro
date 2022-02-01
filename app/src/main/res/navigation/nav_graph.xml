@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/repoListFragment"
+    android:id="@+id/mynav">
+
+    <fragment
+        android:id="@+id/repoListFragment"
+        android:name="com.codem.squaro.ui.RepoListFragment"
+        android:label="RepoListFragment">
+        <action
+            android:id="@+id/action_list_to_details"
+            app:destination="@id/repoDetailsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/repoDetailsFragment"
+        android:name="com.codem.squaro.ui.RepoDetailsFragment"
+        android:label="RepoDetailsFragment" />
+
+
+</navigation>

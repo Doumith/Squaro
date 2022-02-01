@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Squaro</string>
+
+
+    <string name="bookmark_repo">Bookmark repository</string>
+    <string name="remove_Bookmark_repo">Remove From Bookmarks</string>
+
+</resources>

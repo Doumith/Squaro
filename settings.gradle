@@ -1,0 +1,2 @@
+rootProject.name = "Squaro"
+include ':app'
